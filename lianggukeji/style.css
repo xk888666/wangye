@@ -1,4 +1,4 @@
-body,ul,span,h1,h2,a,h3,p{
+﻿body,ul,span,h1,h2,a,h3,p{
 	padding: 0;
 	margin: 0;
 }
@@ -7,7 +7,7 @@ ul{
 }
 a{
 	color: #000000;
-	text-decoration: navajowhite;
+	text-decoration:none;
 }
 img{
 	display: block;
