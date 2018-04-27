@@ -958,3 +958,21 @@ top: 41px;left: 0;
 .fooder .copyright .copyright_right a.a2{
 	color: #656565;
 }
+.dingwei{
+	width: 24px;
+	height: 88px;
+	color: #fff;
+	background: #457CE6;
+	position: fixed;
+	top: 50%;right: 0;
+	text-align: center;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius:6px ;
+	font-size: 15px;
+	font-family: 微软雅黑;
+}
+.dingwei a{
+	display: inline-block;
+	color: #fff;
+	padding-top: 25px;
+}
