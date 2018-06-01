@@ -700,6 +700,7 @@ body{
 	background: #fff;
 	padding-top: 25px;
 	padding-bottom: 40px;
+	position: relative;
 }
 .content6 .c6left{
 	width: 608px;
@@ -782,6 +783,29 @@ body{
 	top: 25px;
 	right: 20px;
 }
+.content6 .dingwei2{
+	width: 41px;
+	height: 90px;
+	background: #676767;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	bottom: 40px;
+	right:-41px ;
+	border-radius: 5px;
+	padding-top: 8px;
+	font-size: 0;
+	
+}
+.content6 .dingwei2 a.fhdb{
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	margin-left: 5px;
+	margin-right: 6px;
+	margin-top: 8px;
+}
 
 
 
@@ -822,4 +846,24 @@ body{
 	color: #FFFFFF;
 	font-weight: bold;
 
+}
+.dingwei{
+	width: 163px;
+	height: 48px;
+	line-height: 48px;
+	background: #C00000;
+	position: fixed;
+	top: 223px;
+	right: 0;
+	border-radius: 26px 0 0 26px;
+
+}
+.dingwei a{
+	display: block;
+	color:#FFFFFF ;
+	font-size:18px;
+	font-family: 宋体;
+	background: url('images/hi.png') left no-repeat;
+	padding-left: 56px;
+	margin-left: 13px;
 }
