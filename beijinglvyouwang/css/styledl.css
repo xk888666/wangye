@@ -1,0 +1,131 @@
+body,h1,h2,h3,ul,a,p,span{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: middle;
+}
+body{
+	background: #F7F7F7;
+}
+.clearfix::after{
+	display: block;
+	content: '';
+	clear: both;
+}
+.gWidth{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header{
+	height: 190px;
+	background: url('../images/indexheadertu.png')no-repeat center;
+}
+.header h1{
+	text-indent: -9999px;
+	font-size: 0;
+}
+.login{
+	height:38px ;
+	background: #4CACF8;
+}
+.login .wrap a{
+	font-family: 宋体;
+	font-size: 14px;
+	color: #FFFFFF;
+	float: left;
+}
+.login .wrap .sign{
+	margin-top: 12px;
+	margin-left: 4px;
+}
+.content{
+	width: 809px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 63px;
+}
+
+.content .box{
+	margin-left: 8px;
+}
+.content .wrap{
+	width: 239px;
+	height: 20px;
+	background: #EC670F;
+}
+.content h2{
+	font-family: 微软雅黑;
+	font-size: 22px;
+	color: #333333;
+	font-weight: normal;
+	margin-top: -25px;
+	height: 25px;
+	width: 231px;
+	background: #F7F7F7;
+	margin-left: 8px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-bottom: 24px;
+}
+.content .nei{
+	height: 353px;
+	background: #fff;
+	padding-left: 94px;
+	padding-top: 58px;
+	box-sizing: border-box;
+	box-shadow: 0 0 8px #DDE9E2 ;
+	margin-bottom: 162px;
+}
+.content .nei p{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 17px;
+
+}
+.content .nei p .span1{
+	background: url('../images/denglutubiao.png') no-repeat top right;
+	margin-right: 15px;
+}
+.content .nei p .juli{
+	margin-left: 16px;
+}
+.content .nei p .input1{
+	width: 262px;
+	height: 31px;
+	border: 1px solid #A2C1D5;
+	box-shadow:  0px 1px 4px #DDDDDD inset ;
+	font-size: 20px;
+	padding-left: 2px;
+	box-sizing: border-box;
+}
+.content .nei .input2{
+	width: 180px;
+	height: 48px;
+	background: #2BB3F3;
+	border-radius: 4px;
+	color: #FFFFFF;
+	border: none;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.fooder  p{
+	width: 290px;
+	margin: 0  auto;
+	font-family: 宋体;
+	color: #656565;
+	font-size: 12px;
+	margin-top: 56px;
+	margin-bottom: 17px;
+}
+.fooder  p a{
+	color: #656565;
+}

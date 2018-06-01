@@ -1,0 +1,346 @@
+body,h1,h2,h3,ul,a,p,span,input,select,textarea{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	vertical-align: middle;
+}
+body{
+	background: #ECF9F1;
+}
+.clearfix::after{
+	display: block;
+	content: '';
+	clear: both;
+}
+.gWidth{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header{
+	height: 190px;
+	background: url('../images/indexheadertu.png')no-repeat center;
+}
+.header h1{
+	text-indent: -9999px;
+	font-size: 0;
+}
+.login{
+	height:38px ;
+	background: #4CACF8;
+}
+.login .wrap a{
+	font-family: 宋体;
+	font-size: 14px;
+	color: #FFFFFF;
+	float: left;
+}
+.login .wrap .sign{
+	margin-top: 12px;
+	margin-left: 4px;
+}
+.login .wrap span{
+	display: block;
+	font-family: 宋体;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 40px;
+}
+.content{  
+	width:966px ;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('../images/indexxiaoyinying.png');
+}
+.content .container{
+	height: 750px;
+	background: #fff;
+	box-sizing: border-box;
+}
+.content .container .wrap{
+	background: #F6F6F6;
+	height: 84px;
+	padding-left: 25px;
+	padding-top: 14px;
+	box-sizing: border-box;
+	border-bottom: 2px solid #DFDEDE;
+}
+.content .container .wrap p{
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 宋体;
+}
+.content .container .list{
+	margin-left: 13px;
+	margin-top: 18px;
+	margin-bottom: 16px;
+}
+.content .container .list li{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 宋体;
+	line-height: 31px;
+	text-align: center;
+	border: 1px solid #4FACF6;
+	padding-left: 14px;
+	padding-right: 9px;
+	box-sizing: border-box;
+	margin-right: 6px;
+	cursor: pointer;
+	color: #37A5FA;
+}
+.content .container .list .act{
+	border-color: #FF9C71;
+}
+.content .container .list li span{
+	color: #FF0000;
+}
+.content .container .list li.li1{
+	border: 1px solid #D1D1D1;
+	cursor: default;
+}
+.content .container .neirongn{
+	display: none;
+}
+.content .container .ac{
+	display: block;
+}
+
+
+
+
+
+
+.content .container .neirong .agin{
+	margin-left: 14px;
+	height: 32px;
+	border-bottom:1px solid  #DBDBDB ;
+	margin-right: 12px;
+}
+.content .container .neirong .agin li{
+	float: left;
+	width: 121px;
+	line-height: 31px;
+	text-align: center;
+	border: 1px solid #DBDBDB;
+	border-bottom: none;
+	margin-right: -1px;
+	border-radius: 5px 5px 0 0;
+	background: #F8F6F4;
+	cursor: pointer;
+}
+.content .container .neirong .agin li.hover{
+	color: #4BABF7;
+	font-family: 宋体;
+	font-weight: bold;
+	line-height: 32px;
+	background: #FFFFFF;
+}
+.content .container .neirong .main{
+	border:1px solid  #DBDBDB;
+	border-top: none;
+	height: 484px;
+	margin-right: 12px;
+	margin-left: 14px;
+	padding-left: 88px;
+	padding-top: 40px;
+	box-sizing: border-box;
+	display: none;
+}
+.content .container .neirong .actve{
+	display: block;
+}
+.content .container .neirong .main .list1 li{
+	font-family: 宋体;
+	font-size: 14px;
+	color: #656565;
+	line-height: 32px;
+
+}
+.content .container .neirong .main .list1 li.li1{
+	color: #4BABF7;
+}
+.content .container .neirong .main form p{
+	font-family: 宋体;
+	font-size: 14px;
+	color: #656565
+}
+.content .container .neirong .main form p.spp{
+	font-family: 宋体;
+	font-size: 14px;
+	color: #656565;
+	font-weight: normal;
+	margin-bottom: 28px;
+}
+.content .container .neirong .main form p.spp span.sp{
+	color: #000000;
+	margin-left: 16px;
+}
+
+.content .container .neirong .main form p .select1{
+	width: 120px;
+	height: 23px;
+	border: 1px solid #B8C4CD;
+	box-shadow:0px 1px 4px #DDDDDD inset ;
+	margin-bottom: 20px;
+}
+.content .container .neirong .main form p.p1{
+	text-indent: 2em;
+}
+.content .container .neirong .main form p.p1 .input1{
+	width: 216px;
+	height: 23px;
+	border: 1px solid #B8C4CD;
+	box-shadow:0px 1px 4px #DDDDDD inset ;
+	color: #B9B9B9;
+	font-size: 14px;
+	font-family: 宋体;
+	margin-bottom: 28px;
+}
+.content .container .neirong .main form p.p1 .input2{
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	border:1px solid  #275A79;
+	margin-bottom: 30px;
+}
+.content .container .neirong .main form p.p1 .input3{
+	width: 216px;
+	height: 23px;
+	border: 1px solid #B8C4CD;
+	box-shadow:0px 1px 4px #DDDDDD inset ;
+	color: #000000;
+	font-size: 14px;
+	font-family: 宋体;
+	margin-bottom: 19px;
+}
+.content .container .neirong .main form p.p1 .span1{
+	display: inline-block;
+	width:181px ;
+	height: 23px;
+	line-height: 23px;
+	border: 1px dashed #FF0000;
+	font-size: 0;
+	margin-left: 4px;
+}
+.content .container .neirong .main form p.p1 .span1 .span2{
+	display: block;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #FF0000;
+	text-indent: 0;
+	background: url('../images/yyjinggao.png') left no-repeat;
+	padding-left: 20px;
+	margin-left: 13px;
+	padding-top: 2px;
+}
+.content .container .neirong .main form p.p2{
+	text-indent: 1em;
+}
+.content .container .neirong .main form p.p2 .input4{
+	width: 216px;
+	height: 23px;
+	border: 1px solid #B8C4CD;
+	box-shadow:0px 1px 4px #DDDDDD inset ;
+	margin-bottom: 20px;
+	margin-bottom: 18px;
+}
+.content .container .neirong .main form p.p2 .span1{
+	display: inline-block;
+	width:181px ;
+	height: 23px;
+	line-height: 23px;
+	border: 1px dashed #FF0000;
+	font-size: 0;
+	margin-left: 4px;
+}
+.content .container .neirong .main form p.p2 .span1 .span2{
+	display: block;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #FF0000;
+	text-indent: 0;
+	background: url('../images/yyjinggao.png') left no-repeat;
+	padding-left: 20px;
+	margin-left: 13px;
+	padding-top: 2px;
+}
+.content .container .neirong .main form p.p2 .button1{
+	width: 96px;
+	height: 26px;
+	line-height: 26px;
+	font-family: 宋体;
+	font-size: 14px;
+	color: #FFFFFF;
+	background: #06B0FF;
+	border: none;
+	border-radius: 5px;
+	margin-left: 4px;
+}
+.content .container .neirong .main form p .input5{
+	width: 216px;
+	height: 23px;
+	border: 1px solid #B8C4CD;
+	box-shadow:0px 1px 4px #DDDDDD inset ;
+	margin-bottom: 20px;
+}
+.content .container .neirong .main form p .span3{
+	font-size: 12px;
+	margin-left: 4px;
+	color: #FF0000;
+	font-family: 宋体;
+}
+.content .container .neirong .main form p .span1{
+	display: inline-block;
+	width:181px ;
+	height: 23px;
+	line-height: 23px;
+	border: 1px dashed #FF0000;
+	font-size: 0;
+	margin-left: 4px;
+}
+.content .container .neirong .main form p .span1 .span2{
+	display: block;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #FF0000;
+	text-indent: 0;
+	background: url('../images/yyjinggao.png') left no-repeat;
+	padding-left: 20px;
+	margin-left: 13px;
+	padding-top: 2px;
+}
+.content .container .neirong .main form p .submit1{
+	width: 180px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 6px;
+	border: 1px solid #EC6D06;
+	background-image: linear-gradient(to top, #F77600,#FDC04A);
+}
+.content .container .fooder  p{
+	width: 290px;
+	margin: 0  auto;
+	font-family: 宋体;
+	color: #656565;
+	font-size: 12px;
+	margin-top: 56px;
+	margin-bottom: 17px;
+}
+ .content .container .fooder  p a{
+	color: #656565;
+}

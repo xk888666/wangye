@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>游客开放日</title>
+	<link rel="stylesheet"  href="css/stykewz.css">
+</head>
+<body>
+	<div class="header">
+		<h1>北京旅游</h1>
+	</div>
+	<div class="login">
+		<div class="wrap gWidth clearfix"> 
+			<a href="index.html" class="sign">参观预约的开放单位列表></a>
+			<span>北京市劳动人民文化宫</span>
+		</div>
+	</div>
+	<div class="content">
+		<div class="container gWidth">
+			<div class="wrap">
+				<h2>北京市劳动人民文化宫</h2>
+				<img src="images/wztupian.png" alt="北京旅游网">
+			</div>
+			<div class="wrap2">
+				<h3>太子林</h3>
+				<p>此处古柏独立成林，相传为明朝几代太子所植。太子年幼调皮，随意栽植，不循行距，随从亦不敢阻拦，任其所为，故而成林后与它处柏林不同，纵横排列参差不齐，形成独特之景观。</p>
+			</div>
+			<div class="wrap2">
+				<h3>太子林</h3>
+				<p>“中国气象科技展厅”位于中国气象局气象科技大楼一层，展厅面积800平方米，分东西两厅；2006年3月23日对外开放。自建成运行以来，努力发挥科普教育基地作用，通过多种活动，加大防灾减灾科普宣传覆盖面和影响力。展厅命名单位为中国科学技术协会（简称中国科协），主管单位为中国气象局公共气象服务中心。展厅年开放天数300天，年参观人次为1.5万。展厅现有科普专职人员16人。2009年6月，“中国气象科技展厅”被中</p>
+			</div>
+			<div class="wrap3">
+				<div class="whead">
+				<h3>地址</h3>
+				</div>
+				<ul class="neirong">
+					<li>乘车路线</li>
+					<li>公交车：1路、2路、10路、20路、37路、52路、59路、120路、126路、728路、99路天安门东。</li>
+					<li>地 铁：1号线天安门东 A出口。</li>
+				</ul>
+			</div>
+			<div class="wrap3">
+				<div class="whead">
+				<h3>参观须知</h3>
+				</div>
+				<ul class="neirong">
+					<li>1、开放时间：5月19日的06:30-19:30免费开放，其他时间收费，票价2元。</li>
+					<li>2、预约方式：团体预约。</li>
+					<li>3、接待能力：接待人数300人以上。</li>
+					<li>4、现场服务：免费提供中文讲解。</li>
+					<li>5、参观要求：全国重点文物保护单位，全园禁止吸烟。</li>
+				</ul>
+			</div>
+				<div class="wrap3">
+				<div class="whead">
+				<h3>预约报名</h3>
+				</div>
+				<div class="neirong">
+					<p class="clearfix">
+						<span>如果您有预约意向，请按预约按钮-></span>
+						<a href="yuyue.html">个人预约</a>
+						<a href="yuyue.html">团体预约</a>
+						</p>
+				</div>
+			</div>
+			<div class="wrap4">
+				<div class="img1 clearfix">
+				<a href="###"><img src="images/wz dibutu.png" alt="北京旅游网"></a>
+				<a href="###"><img src="images/wzdibutu2.png" alt="北京旅游网"></a>
+				<a href="###"><img src="images/wzdibutu3.png" alt="北京旅游网"></a>
+				<a href="###"><img src="images/wzdibutu4.png" alt="北京旅游网"></a>
+				<a href="###"><img src="images/wzdibutu4.png" alt="北京旅游网"></a>
+			</div>
+			</div>
+				<div class="fooder">
+		<p><a href="###">北京市旅游发展委员会官方网站</a> <a href="###">©京ICP备13021917号</a></p>
+	</div>
+		</div>
+	</div>
+	<script>
+		var t=null;
+		var speed=10;
+		var img1=document.getElementsByClassName('img1')[0];
+		var img1Width=img1.offsetWidth;
+		img1.style.width=img1Width*2+'px';
+		img1.innerHTML+=img1.innerHTML;
+		function move(){
+		var img1Left=img1.offsetLeft;
+		if(img1Left==-img1Width){
+			img1.style.left='0px';
+		}else{
+			img1.style.left=--img1Left+'px';
+		}
+	}
+	img1.onmouseover=function(){
+		clearInterval(t);
+	}
+	img1.onmouseout=function(){
+		t=setInterval(move,speed);
+	}
+	img1.onmouseout();
+	</script>
+</body>
+</html>

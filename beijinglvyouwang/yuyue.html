@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>预约</title>
+	<link rel="stylesheet" href="css/styleyy.css">
+</head>
+<body>
+		<div class="header">
+		<h1>北京旅游</h1>
+	</div>
+	<div class="login">
+		<div class="wrap gWidth clearfix">
+			<a href="index.html" class="sign">参观预约的开放单位列表></a>
+			<span>参观预约</span>
+		</div>
+	</div>
+	<div class="content">
+		<div class="container gWidth">
+			<div class="wrap">
+				<p>开放单位：天安门观礼台</p>
+				<p>开放时间：仅每月1日开放，其他时间不开放，具体开放时间以天安门地区管理委员会通知为准。</p>
+			</div>
+			<ul class="list clearfix">
+				<li class="li1">2015年1月1号 预约已满</li>
+				<li class="li2 act">2015年2月1号 还剩<span>130</span>个名额</li>
+				<li class="li2">2015年3月1号 还剩<span>30</span>个名额</li>
+				<li class="li2">2015年4月1号 还剩<span>30</span>个名额</li>
+			</ul>
+			<div class="neirong">
+				<ul class="agin clearfix">
+					<li class="hover">团队预约</li>
+					<li >个人预约</li>
+				</ul>
+				<div class="main actve">
+					<ul class="list1">
+						<li>预约时间：2015年2月1号</li>
+						<li>预约电话：010-85752818</li>
+						<li class="li1">友情提示：如您有团队预约意向，请直接拨打预约电话进行预约</li>
+					</ul>
+					</div>
+					<div class="main">
+					<form action="" method="post">
+						<p class="spp">预约时间：<span class="sp">2015年2月1号</span></p>
+						<p>预约时间：
+							<select class="select1">
+							<option value="10" selected>上午</option>
+							<option value="20">下午</option>
+						</select>
+						</p>
+						<p class="p1">姓名：
+							<input type="text" name="" class="input1" value="" placeholder="请输入预约人的姓名">
+						</p>
+						<p class="p1">性别：
+						<input type="radio" value="1" name="usex" checked class="input2">男
+						<input type="radio" value="0" name="usex" class="input2" >女
+					</p>
+					<p class="p1">民族：
+						<input type="text" name="" value="" class="input3">
+						<span class="span1"><span class="span2">请输入正确的民族</span></span>
+					</p>
+					<p class="p2">手机号：
+						<input type="text" name="" value="" class="input4" placeholder="请输入正确的手机号">
+						<span class="span1"><span class="span2">请输入正确的手机号</span></span>
+					</p>
+						<p class="p2">验证码：
+						<input type="text" name="" value="" class="input4">
+						<input type="button" name="" class="button1" value="获取验证码">
+					</p>
+					<p>身份证号：
+						<input type="text" name="" value="" class="input5" placeholder="请输入正确的身份证">
+						<span class="span3">请核对您的身份证号码，确保正确</span>
+						<span class="span1"><span class="span2">请输入合法的身份证号码</span></span>
+					</p>
+					<p class="p2"><input type="submit" name="" value="提 交" class="submit1"></p>
+					</form>
+			</div>
+		</div>
+			<div class="fooder gWidth">
+		<p><a href="###">北京市旅游发展委员会官方网站</a> <a href="###">©京ICP备13021917号</a></p>
+	</div>
+		</div>
+	</div>
+	<script>
+		var agin=document.getElementsByClassName('agin')[0];
+		var lis=agin.getElementsByTagName('li');
+		var neirong=document.getElementsByClassName('neirong')[0];
+		var mains=neirong.getElementsByClassName('main');
+		for(var i=0;i<lis.length;i++){
+	lis[i].index=i;
+	lis[i].onclick=function(){
+		for(var i=0;i<lis.length;i++){
+				lis[i].className='';
+			}
+			for(var i=0;i<mains.length;i++){
+				mains[i].className='main';
+			}
+			this.className='hover';
+			mains[this.index].className='main actve';
+	}
+}
+		var shuzu=['预约时间：2015年2月1号','预约时间：2015年3月1号','预约时间：2015年4月1号'];
+		var shuzu2=['2015年2月1号','2015年3月1号','2015年4月1号'];
+		var list=document.getElementsByClassName('list')[0];
+		var li2=list.getElementsByClassName('li2');
+		var list1=document.getElementsByClassName('list1')[0];
+		var li=list1.getElementsByTagName('li')[0];
+		var p=document.getElementsByClassName('sp')[0];
+		for(var i=0;i<li2.length;i++){
+	li2[i].index=i;
+	li2[i].onclick=function(){
+		for(var i=0;i<li2.length;i++){
+				li2[i].className='li2';
+			}
+			this.className='li2 act';
+			li.innerHTML=shuzu[this.index];
+			p.innerHTML=shuzu2[this.index];
+		}
+	}
+
+	</script>
+</body>
+</html>
