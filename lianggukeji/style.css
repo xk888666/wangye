@@ -1,4 +1,4 @@
-﻿body,ul,span,h1,h2,a,h3,p{
+body,ul,span,h1,h2,a,h3,p{
 	padding: 0;
 	margin: 0;
 }
@@ -22,7 +22,7 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 }
-.logo{
+ .logo{
 	height: 40px;
 	background: url('images/logobeijing.png');
 }
@@ -52,14 +52,14 @@ img{
 	width: 184px;
 	height: 33px;
 	border: none;
-	background: transparent /* url('images/logobeijing.png') no-repeat */;
+	background: transparent url('images/logobeijing.png') no-repeat;
 	outline: none;
 }
 .logo .box .box2 .a3{
 	position: absolute;
 	top: 10px; right: 0;
 }
-/*导航开始*/
+导航开始
 .nav h1{
 	padding-right: 85px;
 	margin-top: 24px;
@@ -238,7 +238,10 @@ img{
 	padding: 9px 10px 7px 10px;
 	border: 1px solid #D1D8DB;
 	background: #fff;
-}
+} 
+
+
+
 .content2 .jjfa_header h2{
 	width: 217px;
 	font-family: 微软雅黑;
@@ -263,155 +266,82 @@ img{
 }
 .content2 .xia{
 	padding-bottom: 28px;
+	overflow: hidden;
+	position: relative;
+	height: 334px;
+	width: 1000px;
 }
-.content2 .xia{
-overflow: hidden;
-position: relative;
+.content2 .xia .box1{
+	height: 334px;
+	width: 805px;
+	position: absolute;
+	top: 0;
+	transition: 2s linear;
 }
-.content2 .xia .chuti1{
-	width: 792px;
-
+.content2 .xia .jt{
+	left: 0;
 }
-.content2 .xia .chuti1 .a1{
+.content2 .xia .sf{
+	left: 805px;
+}
+.content2 .xia .zf{
+	left: 870px;
+}
+.content2 .xia .qt{
+	left:935px;
+}
+.content2 .xia .box1 .title{
+	height: 334px;
+	width: 65px;
 	float: left;
-	width: 21px;
-	height: 109px;
-	font-size: 20px;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	padding: 83px 20px 0;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.content2 .xia .jt .title{
 	background: #00007F;
-	color: #fff;
-	padding: 93px 22px 132px 22px;
 }
-.content2 .xia .chuti1 .box{
-	width: 727px;
+.content2 .xia .sf .title {
+		background: #EE8800;
+	}
+.content2 .xia .zf .title {
+		background: #7F7F00;
+	}
+.content2 .xia .qt .title {
+		background: #2361AD;
+	}
+.content2 .xia .box1 .con{
+	width: 740px;
+	height: 334px;
+	background: #fff;
 	float: left;
-	opacity: 1;
 }
-.content2 .xia .chuti1 .box .a2{
+.content2 .xia .box1 .con img{
 	float: left;
 }
-.content2 .xia .chuti1 .box ul{
-	width: 400px;
-	float: right;
+.content2 .xia .box1 .con .list1{
+	width: 428px;
+	float: left;
 }
-.content2 .xia .chuti1 .box ul li{
+.content2 .xia .box1 .con .list1 li{
 	line-height: 30px;
 	font-family: 微软雅黑;
 	font-size: 12px;
 	text-align: right;
+	background: url('images/dian.png')no-repeat left;
+	padding-left: 6px;
+	margin-left: 15px;
+	padding-right: 12px;
 }
-.content2 .xia .chuti1 .box ul li a{
-	float: left;
-}
-.content2 .xia .chuti2{
-	width: 792px;
-	position: absolute ;
-	left: 805px;top:0px ;
-
-}
-.content2 .xia .chuti2 .a1{
-	float: left;
-	width: 21px;
-	height: 109px;
-	font-size: 20px;
-	background: #EE8800;
-	color: #fff;
-	padding: 93px 22px 132px 22px;
-}
-.content2 .xia .chuti2 .box{
-	width: 727px;
-	float: left;
-	opacity: 1;
-}
-.content2 .xia .chuti2 .box .a2{
-	float: left;
-}
-.content2 .xia .chuti2 .box ul{
-	width: 400px;
-	float: right;
-}
-.content2 .xia .chuti2 .box ul li{
-	line-height: 30px;
-	font-family: 微软雅黑;
-	font-size: 12px;
-	text-align: right;
-}
-.content2 .xia .chuti2 .box ul li a{
+.content2 .xia .box1 .con .list1 li a{
 	float: left;
 }
 
-.content2 .xia .chuti3{
-	width: 792px;
-	position: absolute ;
-	left: 870px ;top:0px;
 
-}
-.content2 .xia .chuti3 .a1{
-	float: left;
-	width: 21px;
-	height: 109px;
-	font-size: 20px;
-	background: #7F7F00;
-	color: #fff;
-	padding: 93px 22px 132px 22px;
-}
-.content2 .xia .chuti3 .box{
-	width: 727px;
-	float: left;
-	opacity: 1;
-}
-.content2 .xia .chuti3 .box .a2{
-	float: left;
-}
-.content2 .xia .chuti3 .box ul{
-	width: 400px;
-	float: right;
-}
-.content2 .xia .chuti3 .box ul li{
-	line-height: 30px;
-	font-family: 微软雅黑;
-	font-size: 12px;
-	text-align: right;
-}
-.content2 .xia .chuti3 .box ul li a{
-	float: left;
-}
-.content2 .xia .chuti4{
-	width: 792px;
-	position: absolute ;
-	left: 935px;top:0px
-
-}
-.content2 .xia .chuti4 .a1{
-	float: left;
-	width: 21px;
-	height: 109px;
-	font-size: 20px;
-	background: #2361AD;
-	color: #fff;
-	padding: 93px 22px 132px 22px;
-}
-.content2 .xia .chuti4 .box{
-	width: 727px;
-	float: left;
-	opacity: 1;
-}
-.content2 .xia .chuti4 .box .a2{
-	float: left;
-}
-.content2 .xia .chuti4 .box ul{
-	width: 400px;
-	float: right;
-}
-.content2 .xia .chuti4 .box ul li{
-	line-height: 30px;
-	font-family: 微软雅黑;
-	font-size: 12px;
-	text-align: right;
-}
-.content2 .xia .chuti4 .box ul li a{
-	float: left;
-}
-.content3{
+ .content3{
 	padding-bottom: 7px;
 	background: #F9F9F9;
 }
