@@ -1,0 +1,23 @@
+body,span,p,h1,h2,h3,h4,a,ul,ol{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.gWidth{
+	width:1200px ;
+	margin-left: auto;
+	margin-right: auto;
+}
